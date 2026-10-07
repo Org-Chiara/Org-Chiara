@@ -62,7 +62,7 @@ area and turns it into a commercial conversation. The loop closes in the CRM, wh
 opportunity has an owner and a date.
 
 ```mermaid
-graph LR
+graph TD
     L["🔎 LIST<br/>who needs what<br/>we already have"] --> Q["🎯 QUALIFY<br/>decision maker · need<br/>dated next step"]
     Q --> F["✅ FEASIBILITY<br/>declared by the owning area<br/>software or device"]
     F --> O["📄 OFFER<br/>what is deliverable today<br/>no roadmap promises"]
